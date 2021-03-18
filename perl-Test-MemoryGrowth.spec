@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-MemoryGrowth
 Version  : 0.04
-Release  : 2
+Release  : 3
 URL      : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Test-MemoryGrowth-0.04.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Test-MemoryGrowth-0.04.tar.gz
 Summary  : 'assert that code does not cause growth in memory usage'
@@ -13,6 +13,7 @@ License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
 Requires: perl-Test-MemoryGrowth-license = %{version}-%{release}
 Requires: perl-Test-MemoryGrowth-perl = %{version}-%{release}
 BuildRequires : buildreq-cpan
+BuildRequires : perl(Module::Build)
 
 %description
 NAME
@@ -90,4 +91,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.3/Test/MemoryGrowth.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Test/MemoryGrowth.pm

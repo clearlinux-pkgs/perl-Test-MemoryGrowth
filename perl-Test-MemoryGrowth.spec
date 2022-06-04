@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-MemoryGrowth
 Version  : 0.04
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Test-MemoryGrowth-0.04.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Test-MemoryGrowth-0.04.tar.gz
 Summary  : 'assert that code does not cause growth in memory usage'
@@ -91,4 +91,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Test/MemoryGrowth.pm
+/usr/lib/perl5/*

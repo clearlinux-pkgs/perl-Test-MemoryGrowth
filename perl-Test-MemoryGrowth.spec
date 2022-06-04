@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-MemoryGrowth
 Version  : 0.04
-Release  : 10
+Release  : 11
 URL      : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Test-MemoryGrowth-0.04.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Test-MemoryGrowth-0.04.tar.gz
 Summary  : 'assert that code does not cause growth in memory usage'
